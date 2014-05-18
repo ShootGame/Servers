@@ -3,7 +3,7 @@ Forty_Blitz
 Biblioteka
 Most
 TNT_RUN_(2)
-Rage_Quit_Blitz
+Rage_Quit
 Rzymskie_Wieze
 Kopalnia_Run
 Anviltation
