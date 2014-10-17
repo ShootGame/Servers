@@ -1,0 +1,5 @@
+Alfa
+Beta
+Gamma
+Development
+# ^^ This server is only for plugin development
