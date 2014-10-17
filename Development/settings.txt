@@ -1,0 +1,2 @@
+protected=true
+rotation=rotation.txt
