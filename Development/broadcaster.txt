@@ -1,0 +1,3 @@
+prefix=&8[&9MG-net&8]&7
+time=120
+Plugin Arcade jest w fazie alfa testów - wszelkie bledy prosimy zglaszac do TheMolkaPL.
