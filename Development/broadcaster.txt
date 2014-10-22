@@ -1,3 +1,5 @@
-prefix=&8[&9MG-net&8]&7
+format=`8[`9MG-net`8]`7 $message
 time=120
 Plugin Arcade jest w fazie alfa testów - wszelkie bledy prosimy zglaszac do TheMolkaPL.
+Obecnie znajdujesz sie w druzynie $teamDisplayName`7.
+Zobacz swoja historie meczy, KD i wiele wiecej na http://stats.mg.net/$playerName!
