@@ -22,6 +22,8 @@ teams:
   - commandbook.pong
   - commandbook.teleport
   - commandbook.who
+  - punishments.lookup
+  - punishments.report
   - worldedit.navigation.jumpto.command
   - worldedit.navigation.jumpto.tool
   - worldedit.navigation.thru.tool
@@ -46,6 +48,8 @@ teams:
   - commandbook.msg
   - commandbook.pong
   - commandbook.who
+  - punishments.lookup
+  - punishments.report
 groups:
   vip:
     prefix: '`6*'
@@ -66,6 +70,11 @@ groups:
     - commandbook.broadcast
     - nocheatplus.shortcut.info
     - nocheatplus.shortcut.monitor
+    - punishments.kick
+    - punishments.perm
+    - punishments.temp
+    - punishments.warn
+    - punishments.reports
   mod:
     prefix: '`2@'
     permissions:
@@ -74,6 +83,11 @@ groups:
     - nocheatplus.shortcut.info
     - nocheatplus.shortcut.monitor
     - nocheatplus.shortcut.safeadmin
+    - punishments.kick
+    - punishments.perm
+    - punishments.temp
+    - punishments.warn
+    - punishments.reports
   developer:
     prefix: '`9@'
     permissions:
