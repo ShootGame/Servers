@@ -46,38 +46,39 @@ teams:
   - commandbook.msg
   - commandbook.pong
   - commandbook.who
-vip:
-  prefix: '`6*'
-  permissions:
-  - arcade.vip
-map-maker:
-  prefix: '`5*'
-  permissions:
-  - arcade.vip
-fame:
-  prefix: '`6#'
-  permissions:
-  - arcade.vip
-kitmod:
-  prefix: '`a@'
-  permissions:
-  - commandbook.debug.clock
-  - commandbook.broadcast
-  - nocheatplus.shortcut.info
-  - nocheatplus.shortcut.monitor
-mod:
-  prefix: '`2@'
-  permissions:
-  - commandbook.debug.clock
-  - commandbook.broadcast
-  - nocheatplus.shortcut.info
-  - nocheatplus.shortcut.monitor
-  - nocheatplus.shortcut.safeadmin
-developer:
-  prefix: '`9@'
-  permissions:
-  - '*'
-admin:
-  prefix: '`c@'
-  permissions:
-  - '*'
+groups:
+  vip:
+    prefix: '`6*'
+    permissions:
+    - arcade.vip
+  map-maker:
+    prefix: '`5*'
+    permissions:
+    - arcade.vip
+  fame:
+    prefix: '`6#'
+    permissions:
+    - arcade.vip
+  kitmod:
+    prefix: '`a@'
+    permissions:
+    - commandbook.debug.clock
+    - commandbook.broadcast
+    - nocheatplus.shortcut.info
+    - nocheatplus.shortcut.monitor
+  mod:
+    prefix: '`2@'
+    permissions:
+    - commandbook.debug.clock
+    - commandbook.broadcast
+    - nocheatplus.shortcut.info
+    - nocheatplus.shortcut.monitor
+    - nocheatplus.shortcut.safeadmin
+  developer:
+    prefix: '`9@'
+    permissions:
+    - '*'
+  admin:
+    prefix: '`c@'
+    permissions:
+    - '*'
