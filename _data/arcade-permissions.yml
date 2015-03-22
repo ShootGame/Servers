@@ -5,7 +5,6 @@ teams:
   - arcade.command.classes
   - arcade.command.global
   - arcade.command.join
-  - arcade.command.join.team
   - arcade.command.leave
   - arcade.command.mapinfo
   - arcade.command.maplist
@@ -23,6 +22,7 @@ teams:
   - commandbook.teleport
   - commandbook.who
   - punishments.lookup
+  - punishments.punish.receive
   - punishments.report
   - worldedit.navigation.jumpto.command
   - worldedit.navigation.jumpto.tool
@@ -33,7 +33,6 @@ teams:
   - arcade.command.classes
   - arcade.command.global
   - arcade.command.join
-  - arcade.command.join.team
   - arcade.command.leave
   - arcade.command.mapinfo
   - arcade.command.maplist
@@ -49,23 +48,31 @@ teams:
   - commandbook.pong
   - commandbook.who
   - punishments.lookup
+  - punishments.punish.receive
   - punishments.report
 groups:
   vip:
     prefix: '`6*'
     permissions:
-    - arcade.vip
+    - arcade.command.join.team
+    - arcade.premium
   map-maker:
     prefix: '`5*'
     permissions:
-    - arcade.vip
+    - arcade.command.join.team
+    - arcade.premium
   fame:
     prefix: '`6#'
     permissions:
-    - arcade.vip
-  kitmod:
+    - arcade.command.join.team
+    - arcade.premium
+  kidmod:
     prefix: '`a@'
     permissions:
+    - arcade.command.join.team
+    - arcade.notify.warn
+    - arcade.notify.severe
+    - arcade.staff
     - commandbook.debug.clock
     - commandbook.broadcast
     - nocheatplus.shortcut.info
@@ -74,10 +81,17 @@ groups:
     - punishments.perm
     - punishments.temp
     - punishments.warn
+    - punishments.report.receive
     - punishments.reports
   mod:
     prefix: '`2@'
     permissions:
+    - arcade.command.join.team
+    - arcade.command.spy
+    - arcade.notify.info
+    - arcade.notify.warn
+    - arcade.notify.severe
+    - arcade.staff
     - commandbook.debug.clock
     - commandbook.broadcast
     - nocheatplus.shortcut.info
@@ -87,6 +101,7 @@ groups:
     - punishments.perm
     - punishments.temp
     - punishments.warn
+    - punishments.report.receive
     - punishments.reports
   developer:
     prefix: '`9@'
