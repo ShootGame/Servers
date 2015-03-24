@@ -1,5 +1,7 @@
-format=`8[`9MG-net`8]`7 $message
+format=`8[`9ShootGame`8]`7 $message
 time=120
-Plugin Arcade jest w fazie alfa testów - wszelkie bledy prosimy zglaszac do TheMolkaPL.
-Obecnie znajdujesz sie w druzynie $teamDisplayName`7.
-Zobacz swoja historie meczy, KD i wiele wiecej na http://stats.mg.net/$playerName!
+Aby wejsc do gry uzyj komendy `a/dolacz`7, lub kliknij gwiazde w ekwipunku.
+Plugin Arcade jest w fazie alfa testow - wszelkie bledy prosimy zglaszac do `aTheMolkaPL`7.
+Obecnie znajdujesz sie w druzynie `a$teamDisplayName`7.
+Niektore mapy posiadaja klasy. Aby zobaczyc ich liste uzyj `a/klasy`7.
+Zobacz swoja historie meczy, KD i wiele wiecej na `ahttp://shootgame.net/stats?u=$playerName`7!
