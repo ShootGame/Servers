@@ -1,5 +1,11 @@
 teams:
   observers:
+  - -bukkit.command.tell
+  - -bukkit.command.kill
+  - -bukkit.command.me
+  - -minecraft.command.tell
+  - -minecraft.command.kill
+  - -minecraft.command.me
 # - arcade.command.changelog
   - arcade.command.class
   - arcade.command.classes
@@ -28,6 +34,12 @@ teams:
   - worldedit.navigation.jumpto.tool
   - worldedit.navigation.thru.tool
   playable:
+  - -bukkit.command.tell
+  - -bukkit.command.kill
+  - -bukkit.command.me
+  - -minecraft.command.tell
+  - -minecraft.command.kill
+  - -minecraft.command.me
 # - arcade.command.changelog
   - arcade.command.class
   - arcade.command.classes
