@@ -66,6 +66,7 @@ groups:
   vip:
     prefix: '`6*'
     permissions:
+    - arcade.command.join.full
     - arcade.command.join.team
     - arcade.premium
   map-maker:
@@ -76,11 +77,13 @@ groups:
   fame:
     prefix: '`6#'
     permissions:
+    - arcade.command.join.full
     - arcade.command.join.team
     - arcade.premium
   kidmod:
     prefix: '`a@'
     permissions:
+    - arcade.command.join.full
     - arcade.command.join.team
     - arcade.notify.warn
     - arcade.notify.severe
@@ -98,6 +101,7 @@ groups:
   mod:
     prefix: '`2@'
     permissions:
+    - arcade.command.join.full
     - arcade.command.join.team
     - arcade.command.spy
     - arcade.notify.info
