@@ -22,6 +22,7 @@ teams:
   - arcade.command.rotation
   - arcade.command.teams
   - arcade.command.tutorial
+  - bungee.*
   - commandbook.locations.coords
   - commandbook.msg
   - commandbook.pong
@@ -56,6 +57,7 @@ teams:
   - arcade.command.rotation
   - arcade.command.teams
   - arcade.command.tutorial
+  - bungee.*
   - commandbook.msg
   - commandbook.pong
   - commandbook.who
