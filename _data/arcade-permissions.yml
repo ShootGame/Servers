@@ -1,5 +1,11 @@
 teams:
   observers:
+  - -bukkit.command.tell
+  - -bukkit.command.kill
+  - -bukkit.command.me
+  - -minecraft.command.tell
+  - -minecraft.command.kill
+  - -minecraft.command.me
 # - arcade.command.changelog
   - arcade.command.class
   - arcade.command.classes
@@ -16,6 +22,7 @@ teams:
   - arcade.command.rotation
   - arcade.command.teams
   - arcade.command.tutorial
+  - bungee.*
   - commandbook.locations.coords
   - commandbook.msg
   - commandbook.pong
@@ -28,6 +35,12 @@ teams:
   - worldedit.navigation.jumpto.tool
   - worldedit.navigation.thru.tool
   playable:
+  - -bukkit.command.tell
+  - -bukkit.command.kill
+  - -bukkit.command.me
+  - -minecraft.command.tell
+  - -minecraft.command.kill
+  - -minecraft.command.me
 # - arcade.command.changelog
   - arcade.command.class
   - arcade.command.classes
@@ -44,6 +57,7 @@ teams:
   - arcade.command.rotation
   - arcade.command.teams
   - arcade.command.tutorial
+  - bungee.*
   - commandbook.msg
   - commandbook.pong
   - commandbook.who
@@ -54,6 +68,7 @@ groups:
   vip:
     prefix: '`6*'
     permissions:
+    - arcade.command.join.full
     - arcade.command.join.team
     - arcade.premium
   map-maker:
@@ -64,11 +79,13 @@ groups:
   fame:
     prefix: '`6#'
     permissions:
+    - arcade.command.join.full
     - arcade.command.join.team
     - arcade.premium
   kidmod:
     prefix: '`a@'
     permissions:
+    - arcade.command.join.full
     - arcade.command.join.team
     - arcade.notify.warn
     - arcade.notify.severe
@@ -86,6 +103,7 @@ groups:
   mod:
     prefix: '`2@'
     permissions:
+    - arcade.command.join.full
     - arcade.command.join.team
     - arcade.command.spy
     - arcade.notify.info
