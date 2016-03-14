@@ -1,5 +1,5 @@
 arcade:
-    Development:
+    development:
         address: 'localhost:25565'
         name: 'Arcade'
         rotation: 'https://raw.githubusercontent.com/ShootGame/Servers/master/Development/rotation.txt'
